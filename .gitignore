@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python build/cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# IDE config
+.vscode/
