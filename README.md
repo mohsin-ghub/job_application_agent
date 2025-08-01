@@ -40,17 +40,17 @@ Built using **Python**, **Streamlit**, and **Groq’s LLaMA 3 API**.
 
 ## 📦 Setup Instructions
 
-**Clone the repo**  
+1.**Clone the repo**  
   
    git clone https://github.com/your-username/job-application-agent.git
+   
    cd job-application-agent
    
-Install dependencies
-
+2.Install dependencies
 pip install -r requirements.txt
 
-Add your API key to .env
-
+3.Add your API key to .env
 GROQ_API_KEY=your_api_key_here
 
+4.Run
 streamlit run app.py
