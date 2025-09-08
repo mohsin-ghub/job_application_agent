@@ -7,7 +7,7 @@ load_dotenv()
 
 # Groq API settings
 API_KEY = os.getenv("GROQ_API_KEY")
-MODEL = os.getenv("GROQ_MODEL", "llama3-70b-8192")
+MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 
 # Initialize Groq client
 client = OpenAI(
